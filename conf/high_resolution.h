@@ -1,0 +1,3 @@
+#define FRAME_HEIGHT (360)
+#define FRAME_WIDTH (640)
+#define HIGHLIGHT_WIDTH (40)
