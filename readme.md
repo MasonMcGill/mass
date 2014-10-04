@@ -6,15 +6,15 @@ MASS is an open-source, configurable sensory substitution system inspired by [th
 
 Compile-Time Dependencies
 -------------------------
-- C: Available [here](https://gcc.gnu.org/install/binaries.html).
-- Ruby: Available [here](https://www.ruby-lang.org/en/downloads/).
-- Rake: Enter `gem install rake` in a terminal.
+- **A C Compiler:** Available [here](https://gcc.gnu.org/install/binaries.html).
+- **Ruby:** Available [here](https://www.ruby-lang.org/en/downloads/).
+- **Rake:** Enter `gem install rake` in a terminal.
 
 On Ubuntu/Debian, you can install everything with the command `sudo apt-get install rake`.
 
 Run-Time Dependencies
 ---------------------
-- GStreamer: Available [here](http://gstreamer.freedesktop.org/download/).
+- **GStreamer:** Available [here](http://gstreamer.freedesktop.org/download/).
 
 On Ubuntu/Debian, you can install everything with the command `sudo apt-get install libgstreamer1.0-dev`.
 
@@ -45,7 +45,7 @@ Configurable Symbols
 
 Predefined Configurations
 -------------------------
-- **Rapid Scan**: Increases `SCAN_FREQUENCY` and decreases `ACCUMULATOR_DECAY`.
-- **High Resolution**: Increases the vertical and horizontal resolution of the video stream tenfold.
-- **Pentatonic**: Assigns each row in the video stream a pitch in the pentatonic scale.
-- **vOICe**: Emulates the vOICe sensory substitution system.
+- **Rapid Scan:** Increases `SCAN_FREQUENCY` and decreases `ACCUMULATOR_DECAY`.
+- **High Resolution:** Increases the vertical and horizontal resolution of the video stream tenfold.
+- **Pentatonic:** Assigns each row in the video stream a pitch in the pentatonic scale.
+- **vOICe:** Emulates the vOICe sensory substitution system.
