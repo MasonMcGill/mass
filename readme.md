@@ -40,8 +40,8 @@ Configurable Symbols
 - `HIGHLIGHT_COLOR`: The color of the highlight, as a red/green/blue hex code (default: 0x00bbff).
 - `AUDIO_SAMPLE_RATE`: The rate at which the sound device should capture audio information, in samples-per-channel-per-second (default: 44100).
 - `AUDIO_LATENCY`: The target latency of the audio output, in seconds (default: 0.005).
-- `AUDIO_FREQUENCY`: A function or macro that maps a pixel position--ranging from 0.0 (top) to 1.0 (bottom)--to an audio frequency; <math.h> functions may be used as part of this definition.
-- `AUDIO_AMPLITUDE`: A function or macro that maps a luminance--ranging from 0.0 to 1.0--and a frequency to an amplitude--ranging from 0.0 to 1.0; <math.h> functions may be used as part of this definition.
+- `AUDIO_FREQUENCY`: A function or macro that maps a pixel position--ranging from 0.0 (top) to 1.0 (bottom)--to an audio frequency; `<math.h>` functions may be used as part of this definition.
+- `AUDIO_AMPLITUDE`: A function or macro that maps a luminance--ranging from 0.0 to 1.0--and a frequency to an amplitude--ranging from 0.0 to 1.0; `<math.h>` functions may be used as part of this definition.
 
 Predefined Configurations
 -------------------------
